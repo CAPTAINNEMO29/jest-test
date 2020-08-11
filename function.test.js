@@ -39,6 +39,12 @@ test ('should be falsy', () => {
 test ('should be falsy', () => {
     expect(functions.checkValue(0)).toBeFalsy();
 });
+//toBeThruty
+test('if people are such a dick', () => {
+    const people = 'dick';
+    console.log('then keep doing your live and never look back');
+    expect(people).toBeTruthy();
+});
 //toEqual if for look into objects
 test ('user should be Brad Traversy object', () => {
     expect(functions.createUser()).toEqual({ firstName: 'Brad', lastName: 'Traversy'});
